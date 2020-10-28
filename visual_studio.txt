@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>this page is my cv. will help with hr work interviews</title>
+    </head>
+    <body>
+        <h1>CV - Yarden bachar</h1>
+        <h3>personal details</h3>
+        <p>Yarden Bachar<br>                                  
+            id: 307830612<br>
+            12.5.1993<br>                                     
+            phone: 054-5506446<br>
+            email: yardenbach@gmail.com<br>                   
+            addres:Avraham Avino 6 Beer Sheva<br>
+            <img src="photo.jpg" alt="the image dose not exist">
+        </p>
+        <br>
+        <h3>Army service</h3>
+        <p><b>2013-2016</b> simulator instracture (helicopters) in IAF </p>
+        <ul>
+            <li>fkk</li>
+            <li>jjj</li>
+            <li>jjj</li>
+            <li>jjj</li>
+            <li>jjj</li>
+        </ul>
+        <p><b>2013</b> pilot course</p>
+        <br>
+        <h3>Education</h3>
+        <P><b>2008–2011</b> Beit Hinoh Yarkon</P>
+
+
+    </body>
+</html>
