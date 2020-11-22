@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Experimenting with scripts </title>
+        <script> function fun2()
+            { document.getElementById("h1").style.backgroundColor = "lightblue" }</script>
+    </head>
+
+    <body>
+        <p id="P1"></p> 
+        <script>document.getElementById("P1").innerHTML = "Paragraph changed." </script>
+        
+        <p id="p2"> i will change this text </p>
+        <script> function addFunc(a,b) {  document.getElementById("p2").innerHTML = a+b}
+         document.getElementById("P2").innerHTML =  addFunc(6,3) </script>
+        
+
+        <script> function fun1()
+            { document.getElementById("h1").innerHTML = "i changed my header" }</script>
+        <h1 id="h1"> big header; </h1>
+        <button type="button" onclick="fun1()">Push me</button>
+
+       
+        <button type="button" onclick="fun2()">try me</button>
+
+    </body>
+</html>
