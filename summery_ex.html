@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> my final cv </title>
+        <link rel="stylesheet" href="summery_ex.css">
+        <script src="summery_ex.js"></script>
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="item1"> CV - Yarden bachar </div>
+            <div class="item2"> personal details </div>
+            <div class="item3"> 
+                <p style="text-align: center;" >about myself:</p>
+                <ul>
+                <li>fact 1</li>
+                <li>fact 2</li>
+                <li>fact 3</li>
+                <li>fact 4</li>
+                <li>fact 4</li>
+            </ul></div>
+            <div class="item4" style="justify-self: center; border: darkmagenta; border-width: 5px; padding: 5px; "> <img src="photo.jpg" alt="the image dose not exist"> </div>
+            <div class="item2" style="grid-column: 1/ span 2 ; grid-row: 4 / span 1 ;"> contact </div>
+            <div class="item3" style="grid-column: 1/ span 2 ; grid-row: 5 / span 1 ;"> 
+                <h1 style="font-family: fantasy;">contact me</h1>
+                <form>
+                   
+                    <label for="Name">Name: </lable>
+                    <input type = "text" id = "Name" name = "Name" onmouseover="this.style.background='gray'" onmouseout="this.style.background='white'">
+                    <label for="Phone Number" style = "display:block; padding: 10px 0;">Phone Number: </lable>
+                    <input type = "Tel" id = "Phone Number" name = "PhoneNumber" onmouseover="this.style.background='gray'" onmouseout="this.style.background='white'">
+                    <label for="Email" style = "display:block; padding: 10px 0;">E-mail: </lable>
+                    <input type = "email" id = "Email" name = "Email" onmouseover="this.style.background='gray'" onmouseout="this.style.background='white'">
+                    <label for="Massage" style = "display:block; padding: 10px 0;" >Massage: </lable>
+                    <input type = "text" id = "Massage" name = "Massage" onmouseover="this.style.background='gray'" onmouseout="this.style.background='white'">
+                    <button type="button" onclick="SEND_MASSAGE()" style="display: inline;">SEND</button>
+                    <p id="send" style=" display: inline; color: rgb(0, 65, 38); font-style: oblique; font-size:larger;"></p>
+                    <p>            </p>
+                    <a href="https://www.facebook.com/yarden.bachar.7/" target="_blank">click here to open my facebook</a>
+                                                
+                </form>
+         </div>
+            <div class="item2" style="grid-column: 1/ span 2 ; grid-row: 6 / span 1 ;"> head1 </div>
+            <div class="item3" style="grid-column: 1/ span 2 ; grid-row: 7 / span 1 ;"> 
+                <a href="cv_Yarden_Bcachar.docx" download="CV-Yarden">
+                    <img src="click_cv.png" alt="no_image" style="margin: 15px">
+                  </a>
+             </div>
+        </div>
+    </body>
+</html>
